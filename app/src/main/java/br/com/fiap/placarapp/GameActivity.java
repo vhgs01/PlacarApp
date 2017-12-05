@@ -17,8 +17,8 @@ public class GameActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
 
-        tvTimeCasa = (TextView) findViewById(R.id.etTimeCasa);
-        tvTimeVisitante = (TextView) findViewById(R.id.edTimeVisitante);
+        tvTimeCasa = (TextView) findViewById(R.id.tvTimeCasa);
+        tvTimeVisitante = (TextView) findViewById(R.id.tvTimeVisitante);
 
         if (getIntent() != null) {
             timeCasa = getIntent().getStringExtra("TIMECASA");
