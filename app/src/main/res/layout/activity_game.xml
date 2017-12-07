@@ -11,26 +11,65 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="br.com.fiap.placarapp.GameActivity">
 
+    <LinearLayout style="@style/AlignBaseTheme">
+
+        <LinearLayout style="@style/AlignPlacarTheme">
+
+            <TextView
+                android:id="@+id/tvTimeCasa"
+                style="@style/TextoTimes"
+                tools:text="TIME CASA" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/AlignPlacarTheme">
+
+            <TextView
+                android:id="@+id/tvTimeVisitante"
+                style="@style/TextoTimes"
+                tools:text="TIME VISITANTE" />
+        </LinearLayout>
+
+    </LinearLayout>
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        style="@style/AlignBaseTheme"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
 
-        <TextView
-            android:id="@+id/tvTimeCasa"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:gravity="center"
-            tools:text="TIMECASA" />
+        <LinearLayout style="@style/AlignPlacarTheme">
 
-        <TextView
-            android:id="@+id/tvTimeVisitante"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:gravity="center"
-            tools:text="TIMEVISITANTE" />
+            <TextView
+                android:id="@+id/tvContadorGolCasa"
+                style="@style/PlacarTheme" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/AlignPlacarTheme">
+
+            <TextView
+                android:id="@+id/tvContadorGolVisitante"
+                style="@style/PlacarTheme" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/AlignBaseTheme">
+
+        <LinearLayout style="@style/ButtonPaiTheme">
+
+            <Button
+                android:id="@+id/btGolCasa"
+                style="@style/ButtonFilhoTheme"
+                android:onClick="golCasa" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ButtonPaiTheme">
+
+            <Button
+                android:id="@+id/btGolVisitante"
+                style="@style/ButtonFilhoTheme"
+                android:onClick="golVisitante" />
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>
