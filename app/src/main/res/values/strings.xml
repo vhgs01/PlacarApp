@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">PlacarApp</string>
-    <string name="label_titulo">Times</string>
-    <string name="label_desenvolvido_por">Desenvolvido por Victor Hugo G. da Silva</string>
-    <string name="time_casa">Time casa</string>
-    <string name="digite_nome">Digite o nome do time</string>
-    <string name="time_visitante">Time visitante</string>
-    <string name="comecar_jogo">Começar jogo</string>
-    <string name="placar_inicial">0</string>
-    <string name="gol">Goool</string>
+    <string name="app_name" translatable="false">PlacarApp</string>
+    <string name="comecar_jogo">Start game</string>
+    <string name="placar_inicial" translatable="false">0</string>
+    <string name="gol" translatable="false">Goool</string>
+    <string name="digite_nome">Enter team name</string>
+    <string name="label_titulo">Teams</string>
+    <string name="label_desenvolvido_por">Developed by Victor Hugo G. da Silva</string>
+    <string name="time_casa">Home team</string>
+    <string name="time_visitante">Visiting team</string>
 </resources>

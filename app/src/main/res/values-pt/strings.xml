@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="comecar_jogo">Começar jogo</string>
+    <string name="digite_nome">Digite o nome do time</string>
+    <string name="label_desenvolvido_por">Desenvolvido por Victor Hugo G. da Silva</string>
+    <string name="label_titulo">Times</string>
+    <string name="time_casa">Time casa</string>
+    <string name="time_visitante">Time visitante</string>
+</resources>
